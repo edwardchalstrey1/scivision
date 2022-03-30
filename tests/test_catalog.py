@@ -3,7 +3,10 @@ import scivision.catalog
 from pydantic import ValidationError
 from pathlib import Path
 from scivision.catalog import PandasCatalog, CatalogModels
+import warnings
 
+
+warnings.filterwarnings("ignore", message="numpy.ndarray size changed")
 
 class TestPandasCatalogInit:
     """Checks that PandasCatalogs can be constructed from several argument

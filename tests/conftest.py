@@ -7,7 +7,6 @@ import pytest
 import warnings
 
 
-# warnings.filterwarnings("ignore", message="numpy.ndarray size changed")
 with warnings.catch_warnings():
     warnings.filterwarnings("ignore",category=DeprecationWarning)
     import imp
