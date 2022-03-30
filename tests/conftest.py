@@ -7,7 +7,10 @@ import pytest
 import warnings
 
 
-warnings.filterwarnings("ignore", message="numpy.ndarray size changed")
+# warnings.filterwarnings("ignore", message="numpy.ndarray size changed")
+with warnings.catch_warnings():
+    warnings.filterwarnings("ignore",category=DeprecationWarning)
+    import imp
 
 # Set up some global vars for tests that require an example model
 file = fsspec.open('tests/test_model_scivision.yml')
