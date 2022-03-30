@@ -36,8 +36,8 @@ def test_load_dataset_remote():
 
 def test_load_dataset_branch_and_diff_file_name():
     """Test that an intake catalog is generated when specifying a branch AND that a custom file name."""
-    branch = 'diff-name-yml'
-    assert type(load_dataset('https://github.com/alan-turing-institute/intake-plankton/thESciViSionYAMLfileee.yaml', branch=branch)) == intake.catalog.local.YAMLFileCatalog
+    branch = 'test-branch-diff-name-dont-delete'
+    assert type(load_dataset('https://github.com/alan-turing-institute/scivision-test-data/.scivision/alt-data.yml', branch=branch)) == intake.catalog.local.YAMLFileCatalog
 
 
 def test_load_dataset_local():
