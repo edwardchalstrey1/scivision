@@ -122,6 +122,23 @@
             "ecology",
             "environmental-science"
          ]
+      },
+      {
+         "name":"pokemon",
+         "description":"Images of Pokemon",
+         "tasks":[
+            "classification"
+         ],
+         "domains":[
+            "computer-vision"
+         ],
+         "url":"https://github.com/edwardchalstrey1/pokemon",
+         "format":"image",
+         "labels_provided":true,
+         "institution":["Wikipedia by Erik Veland"],
+         "tags":[
+            "demo"
+         ]
       }
    ]
 }
