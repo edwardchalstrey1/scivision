@@ -37,6 +37,7 @@ class CatalogModelEntry(BaseModel, extra="forbid"):
     labels_required: bool
     institution: Tuple[str, ...] = ()
     tags: Tuple[str, ...]
+    models: Tuple[str, ...]
 
     def __getitem__(self, item):
         return getattr(self, item)
