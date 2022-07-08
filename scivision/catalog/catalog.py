@@ -29,6 +29,7 @@ class CatalogModelEntry(BaseModel, extra="forbid"):
     # significant.
     name: str
     description: Optional[str]
+    models: Tuple[str, ...]
     tasks: Tuple[TaskEnum, ...]
     url: Union[AnyUrl, FileUrl]
     pkg_url: str  # may be a PyPI package name (not an AnyUrl)
@@ -37,7 +38,6 @@ class CatalogModelEntry(BaseModel, extra="forbid"):
     labels_required: bool
     institution: Tuple[str, ...] = ()
     tags: Tuple[str, ...]
-    models: Tuple[str, ...]
 
     def __getitem__(self, item):
         return getattr(self, item)
