@@ -124,20 +124,26 @@
          ]
       },
       {
-         "name":"pokemon",
-         "description":"Images of Pokemon",
+         "name":"data-006",
+         "description":"Sample dataset of drone RGB imagery required to demonstrate the detectreeRGB authored by Hickman et al. (2021)",
          "tasks":[
-            "classification"
+            "object-detection", "segmentation"
          ],
          "domains":[
-            "computer-vision"
+            "computer-vision", "earth-observation", "ecology"
          ],
-         "url":"https://github.com/edwardchalstrey1/pokemon",
+         "url":"https://github.com/shmh40/detectreeRGB-treecrown-scivision",
          "format":"image",
-         "labels_provided":true,
-         "institution":["Wikipedia by Erik Veland"],
+         "labels_provided":false,
+         "institution":["Cambridge University"],
          "tags":[
-            "demo"
+            "2D",
+            "drone",
+            "satellite",
+            "aerial",
+            "remote-sensing",
+            "ecology",
+            "environmental-science"
          ]
       }
    ]
