@@ -145,6 +145,22 @@
             "ecology",
             "environmental-science"
          ]
+      },
+      {
+        "name":"pokemon",
+        "description":"Images of Pokemon",
+        "tasks":[
+           "classification"
+        ],
+        "domains":[
+           "computer-vision"
+        ],
+        "url":"https://raw.githubusercontent.com/alan-turing-institute/scivision_kaggle_datasets/main/.scivision/pokemon.yml",
+        "format":"image",
+        "labels_provided":false,
+        "institution":["kaggle.com"],
+        "tags":[
+           "demo"
       }
    ]
 }
