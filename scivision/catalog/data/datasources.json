@@ -161,6 +161,22 @@
         "institution":["kaggle.com"],
         "tags":[
            "demo"
+      },
+      {
+        "name":"jwst",
+        "description":"Images from the James Webb Space Telescope",
+        "tasks":[
+           "classification"
+        ],
+        "domains":[
+           "computer-vision"
+        ],
+        "url":"https://raw.githubusercontent.com/alan-turing-institute/scivision_kaggle_datasets/main/.scivision/jwst.yml",
+        "format":"image",
+        "labels_provided":false,
+        "institution":["kaggle.com"],
+        "tags":[
+           "demo"
       }
    ]
 }
