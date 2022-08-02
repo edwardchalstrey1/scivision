@@ -157,7 +157,8 @@
             "pretrained":true,
             "labels_required":false,
             "institution":["alan-turing-institute", "huggingface"],
-            "tags": []
+            "tags": [],
+            "models": []
         },
         {
             "name":"detectreeRGB-forest",
@@ -168,7 +169,8 @@
             "pretrained":true,
             "labels_required":false,
             "institution":["cambridge-university"],
-            "tags": ["2D", "satellite", "remote-sensing", "ecology", "environmental-science"]
+            "tags": ["2D", "satellite", "remote-sensing", "ecology", "environmental-science"],
+            "models": []
         }
     ]
 }
